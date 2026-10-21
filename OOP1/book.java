@@ -1,4 +1,6 @@
 package OOP1;
+//in this we worked on the final and when we declared the isbn with final and should be initialized and then when we 
+// are going to modified the isbn it cant beacues the final() prevent the modificatipon in pemative datatypes//
   class Book{
 
     
@@ -34,7 +36,7 @@ public class book {
         Book b1 = new Book();
         Book b2 = new Book("2026", "george well", "18772517682768"); //the is bn is not worked on this becaues we used a final keyword so..//
         b1.display();
-        
+
         b2.display();
         
     }
