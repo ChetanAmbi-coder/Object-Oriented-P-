@@ -1,4 +1,4 @@
-
+//TIME COMPLEXITY OF AN ALGORITHM IS O(N)//
 
 public class bubblesort {
     static void bubblesort(int arr[], int n){
