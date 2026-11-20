@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 class MAINER{
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
@@ -18,6 +19,9 @@ class MAINER{
 
         }
         in.close();
+        int[] array = {1,2,3,4,5};
+        String result = Arrays.toString(array);
+        System.out.println(result);
 
 
        
