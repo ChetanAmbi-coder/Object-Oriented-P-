@@ -1,12 +1,34 @@
+import java.util.Scanner;
+import java.util.Arrays;
 class MAINER{
     public static void main(String[] args){
-        Object   a = 100;
-         Object b  = "le idiot";
-        System.out.println(a instanceof Integer);
-         System.out.println(b instanceof String);
-        
+        Scanner in = new Scanner(System.in);
+        System.out.println("enter a value from 1 to 3");
+        int a = in.nextInt();
+        switch(a){
+            case 1:
+                System.out.println("this is a");
+                break;
+            case 2:
+                System.out.println("this is 2");
+                break;
+            case 3:
+                System.out.println("this is 3");
+            default:
+                System.out.println("plese enter between 1 to 3");
+
+        }
+        in.close();
+        int[] array = {1,2,3,4,5};
+        String result = Arrays.toString(array);
+        System.out.println(result);
+
+
+       
+        }
+      
            
       
 
     }
-}
+
